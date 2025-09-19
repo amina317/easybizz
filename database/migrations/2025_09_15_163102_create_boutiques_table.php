@@ -16,14 +16,7 @@ class CreateBoutiquesTable extends Migration
             $table->timestamps();
         });
 
-        /*
-        Schema::create('boutiques', function (Blueprint $table) {
-            $table->id('boutique_id');
-            $table->string('name');
-            $table->string('address');
-            $table->boolean('status')->default(true);
-            $table->timestamps();
-        });*/
+    
     }
 
     public function down()
